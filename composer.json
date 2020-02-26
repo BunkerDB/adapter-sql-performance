@@ -1,0 +1,24 @@
+{
+    "name": "cratia/adapter-sql-performance",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Carlos Ratia",
+            "email": "cratia.github@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+        }
+    },
+    "require": {
+        "cratia/common-fuctions": ">=0.1"
+    }
+}
