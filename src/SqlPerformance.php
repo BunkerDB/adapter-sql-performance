@@ -15,7 +15,7 @@ use JsonSerializable;
 class SqlPerformance implements ISqlPerformance, JsonSerializable
 {
     /**
-     * @var string
+     * @var float
      */
     private $runtime;
 
@@ -25,7 +25,7 @@ class SqlPerformance implements ISqlPerformance, JsonSerializable
     private $memory;
 
     /**
-     * @var float
+     * @var string
      */
     private $prettyRunTime;
 
@@ -41,9 +41,9 @@ class SqlPerformance implements ISqlPerformance, JsonSerializable
     }
 
     /**
-     * @return string
+     * @return float
      */
-    public function getRuntime(): string
+    public function getRuntime(): float
     {
         return $this->runtime;
     }
@@ -57,9 +57,9 @@ class SqlPerformance implements ISqlPerformance, JsonSerializable
     }
 
     /**
-     * @return float
+     * @return string
      */
-    public function getPrettyRunTime(): float
+    public function getPrettyRunTime(): string
     {
         return $this->prettyRunTime;
     }

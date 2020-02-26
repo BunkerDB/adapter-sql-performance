@@ -11,9 +11,14 @@ namespace Cratia\ORM\DBAL\Adapter\Interfaces;
 interface ISqlPerformance
 {
     /**
+     * @return float
+     */
+    public function getRuntime(): float;
+
+    /**
      * @return string
      */
-    public function getRuntime(): string;
+    public function getPrettyRunTime(): string;
 
     /**
      * @return string
