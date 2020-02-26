@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03ee6870d48bb221704f01a9f110aba1",
+    "content-hash": "8ae87d9ccb8cda0e9f6bcfb2593f0294",
     "packages": [
         {
-            "name": "cratia/common-fuctions",
-            "version": "0.2",
+            "name": "cratia/common-functions",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/carlos-ratia/common-fuctions.git",
-                "reference": "d18bb9d9e308ccdc70d6236c59b22d82dbcc5fab"
+                "url": "https://github.com/carlos-ratia/common-functions.git",
+                "reference": "9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carlos-ratia/common-fuctions/zipball/d18bb9d9e308ccdc70d6236c59b22d82dbcc5fab",
-                "reference": "d18bb9d9e308ccdc70d6236c59b22d82dbcc5fab",
+                "url": "https://api.github.com/repos/carlos-ratia/common-functions/zipball/9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67",
+                "reference": "9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67",
                 "shasum": ""
             },
             "require-dev": {
@@ -42,8 +42,8 @@
                     "email": "cratia.github@gmail.com"
                 }
             ],
-            "description": "Functions Common",
-            "time": "2020-02-26T17:52:04+00:00"
+            "description": "Common Functions",
+            "time": "2020-02-26T19:34:39+00:00"
         }
     ],
     "packages-dev": [],

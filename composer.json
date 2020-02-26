@@ -19,6 +19,8 @@
         }
     },
     "require": {
-        "cratia/common-fuctions": ">=0.1"
+        "php": ">=7.1",
+        "cratia/common-functions": ">=0.1",
+        "ext-json": "*"
     }
 }
