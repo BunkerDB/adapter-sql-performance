@@ -3,7 +3,6 @@
     "description": "",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Carlos Ratia",
@@ -15,7 +14,7 @@
             "src/"
         ],
         "psr-4": {
-            "Cratia\\ORM\\DBAL\\Adapter\\": "src/"
+            "BunkerDB\\ORM\\DBAL\\Adapter\\": "src/"
         }
     },
     "autoload-dev": {

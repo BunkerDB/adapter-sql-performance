@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99a5d390680d9b58a579a90c44fc341c",
+    "content-hash": "f8440b7b6b2d1297abf696234516f823",
     "packages": [
         {
             "name": "cratia/common-functions",
