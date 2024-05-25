@@ -9,6 +9,12 @@
             "email": "cratia.github@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/facuigua/common-functions"
+        }
+    ],
     "autoload": {
         "classmap": [
             "src/"
@@ -24,7 +30,7 @@
     },
     "require": {
         "php": ">=8.3",
-        "cratia/common-functions": ">=0.1",
+        "facuigua/common-functions": "1.0.*",
         "ext-json": "*"
     },
     "require-dev": {

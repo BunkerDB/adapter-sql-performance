@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3e89794e367fa1017c4addcac8f8b1a",
+    "content-hash": "22d35c4591cc6540b4f0d68a4b9638b3",
     "packages": [
         {
-            "name": "cratia/common-functions",
-            "version": "0.2.1",
+            "name": "facuigua/common-functions",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/carlos-ratia/common-functions.git",
-                "reference": "9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67"
+                "url": "https://github.com/facuigua/common-functions.git",
+                "reference": "f0927e0e2b05be9d7c55a1ea40a2ab05164c420b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carlos-ratia/common-functions/zipball/9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67",
-                "reference": "9c1e58836721db08e33d2eaa3f7a0a0bd1b95c67",
+                "url": "https://api.github.com/repos/facuigua/common-functions/zipball/f0927e0e2b05be9d7c55a1ea40a2ab05164c420b",
+                "reference": "f0927e0e2b05be9d7c55a1ea40a2ab05164c420b",
                 "shasum": ""
             },
             "require-dev": {
@@ -25,14 +25,18 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Cratia\\Common\\": "src/"
-                },
                 "classmap": [
                     "src/"
-                ]
+                ],
+                "psr-4": {
+                    "Cratia\\Common\\": "src/"
+                }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\Cratia\\Common\\": "test/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -44,10 +48,9 @@
             ],
             "description": "Common Functions",
             "support": {
-                "issues": "https://github.com/carlos-ratia/common-functions/issues",
-                "source": "https://github.com/carlos-ratia/common-functions/tree/master"
+                "source": "https://github.com/facuigua/common-functions/tree/1.0.1"
             },
-            "time": "2020-02-26T19:34:39+00:00"
+            "time": "2024-05-25T16:14:29+00:00"
         }
     ],
     "packages-dev": [
